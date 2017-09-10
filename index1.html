@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <!-- CSS  -->
+  <link rel="stylesheet" type="text/css" href="responsive.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+
+  <style type="text/css">
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 0px 40px;
+}
+.glyphicon {
+  color: #22a7f0;
+}
+/* The controlsy */
+.carousel-control {
+  left: 0px;
+    height: 0px;
+   width: 0px;
+    background: none repeat scroll 0 0 #24a6ee;
+    border: 4px solid #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 120px;
+}
+.carousel-control.right {
+  right: 0px;
+}
+/* The indicators */
+.carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 60px;
+  margin-right: -19px;
+}
+.carousel-indicators li {
+  background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
+.sec{
+  background: #24a6ee;
+  color: white;
+  -moz-border-radius:12px;
+  -webkit-border-radius:12px;
+  border-radius:10px;
+  border:2px solid white;
+  display:inline-block;
+  cursor:pointer;
+  color:white;
+  font-family:Arial;
+  font-size:16px;
+  padding:10px 0px 10px ;
+  text-decoration:none;
+  height: 40px;
+  width: 150px;
+  margin-top: 10px;
+     
+}
+.li{
+  color: #b6c0ca;
+}
+  h4{
+  color: #22a7f0;
+  font-family:  sans-serif;
+  font-size: 18px;
+
+  }
+   h6{
+  color: #22a7f0;
+  font-family: sans-serif;
+  font-size: 16px;
+  }
+
+.myButton {
+  background-color:transparent;
+  -moz-border-radius:12px;
+  -webkit-border-radius:12px;
+  border-radius:10px;
+  border:2px solid white;
+  display:inline-block;
+  cursor:pointer;
+  color:white;
+  font-family:Arial;
+  font-size:16px;
+  padding:10px 0px 10px ;
+  text-decoration:none;
+  height: 40px;
+ margin-top: 4px;
+ width: 150px;
+ margin-right: 20px;
+ margin-bottom: 20px;
+}
+  h2{
+    font-family: sans-serif;
+    color: white;
+    /*font-size: 50px;*/
+  }
+
+#a{
+    @media screen and (max-width: 561px){
+	  align:center;
+	  }
+	}  
+
+  </style>
+  <script type="text/javascript">
+  
+$(document).ready(function() {
+    $('#Carousel').carousel({
+        interval: 5000
+    })
+});
+</script>
+</head>
+<body>
+
+ <div class="navbar-fixed">
+  <nav style="background-color: #22a7f0;" role="navigation">
+    <div class="nav-wrapper">
+      <a  href="#" class="brand-logo"><img src="images/logo.png" height="45" style="margin-top: 1%; margin-left: 3%;"></a>
+
+      <ul class="right hide-on-med-and-down">
+        <li><a href="" style="margin-right: 0px;"><img src="images/google.png" height="65" width="130" style="margin-top: 3px;"></a></li>
+        <li><a href="" style="margin-right: 300px;"><img src="images/apple.png" height="50" width="130" style="margin-top: 0px;"></a></li>
+        <li><a href="#" style="color: white; margin-top: 0px;">Blog</a></li>
+
+         <li><a href="" data-toggle="modal" data-target="#myModal"> <input type="submit" class="myButton" value="Login/SignUp"></a></li>    
+      </ul>
+
+    
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Blog</a></li>
+        <li><a href="">Google App Link</a></li>
+        <li><a href="">Apple App Link</a></li>
+       <li><a href="fff" data-toggle="modal" data-target="#myModal">Login/Sign Up</a></li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+
+
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+    <div class="center" style="margin-top: 10%;">
+      <h2>"Now managing <span style="color: #22a7f0;"><b>Diabetes</b></span> is</h2>
+      <h2>at your finger tips"</h2>
+    </div>
+    <div class="parallax"><img src="images/home image.png" alt="background" class="img-responsive"></div>
+  </div>
+</div>
+
+      <div class="row ">
+        <div class="col s6 m6 center-align">    
+      <img src="images/track vitals.png" class="img-responsive" style="padding: 5% 5px 5px 30%; height: 200px;">
+    </div>
+      <div class="col s6 m6 left-align " style="padding: 5% 15% 5px 0%;">
+    <h4><b>Track Your Vitals</b></h4>
+    <h6>Now you keep track of our key vitals including glucose</h6>
+    <h6>readings. weight etc and share the same with</h6>
+    <h6>your doctor on real time basis </h6>
+  </div>
+    </div>
+
+    <div class="row">
+  <div class="col s6 m6 left-align" style="padding: 2% 1% 5px 18%;">
+  <h4><b>Consult with the best</b></h4>
+  <h6>We have partenered with some of the best dieticians</h6>
+  <h6>and doctors who have strong experience in</h6>
+  <h6>diabetes with whom you can consult</h6>
+  </div>
+  <div class="col s6 m6 left-align">
+    <img src="images/consult best.png" class="responsive-img" style="padding: 5% 5px 5px 5%; height: 230px;">
+  </div>
+  </div>
+<div class="row">
+    <div class="col s6 m6 center-align">
+      <img src="images/incur savings.png" class="img-responsive" style="padding: 5% 5px 5% 30%; height: 230px;">
+    </div>
+  
+  <div class="col s6 m6 left-align" style="padding: 2% 10% 5% 0%;">
+    <h4><b>Incur Saving</b></h4>
+    <h6>We have partenered with major care givers to provide you</h6>
+    <h6>with exclusive discounts on medicines, diagnostics tests</h6>
+    <h6>,diabetes specific products etc. </h6>
+  </div>
+</div>
+</div>
+
+  
+      <div class="row center">
+        <div class="col s12 m12" style="background-color: #e9f1f4;">
+    <div class="col s12 m3 text-center" style="margin-top: 2%;">
+      <img src="images/select.png">
+       <h6> select your</h6>
+       <h6>Dietician</h6>
+    </div>
+     <div class="col s12 m3 text-center"  style="margin-top: 2%;">
+      <img src="images/track2.png" >
+       <h6> Track your</h6>
+       <h6>Glucose and Weight</h6>
+    </div>
+     <div class="col s12 m3 text-center" style="margin-top: 2%;">
+      <img src="images/diet.png" height="80">
+       <h6>Receive Regular</h6>
+       <h6>Diet plans</h6>
+    </div>
+     <div class="col s12 m3 text-center" style="margin-top: 2%;">
+      <img src="images/get healthy.png" height="100">
+       <h6>Get Healthy</h6>
+       
+    </div>
+
+  
+        <div class="row center">
+          <div class="col s12 m12" style="background-color: #e9f1f4;">
+           <div class="col s7 m7 center" style="padding: 7% 0px 2% 10%;">
+      <h6 style="font-family: sans-serif;">Start the process of getting healthy by selecting</h6>
+      <h6 style="font-family: sans-serif;">the dietician</h6>
+    </div>
+    <div class="col s5 m5">
+     <img src="images/img.png" class="responsive-img" style="height: 250px; margin-right: 50%; margin-top: 5%;">
+          </div>
+        </div>
+   </div>
+
+</div>
+</div>
+
+<div class="row left-align" style="margin-left: 10%;">
+    <h6 style="color: #4c4c4c; opacity: 0.8; font-size: 20px;"><b>View Our Dieticians</b></h6>
+    <h6 style="color: #4c4c4c; opacity: 0.8; font-size: 18px;"><b>We have vast network of dieticians</b></h6>
+  </div>
+
+  <div class="row">
+    <div class="col m3 s3">
+      <img src="images/diet bkg.png" style="height : 250px; width: auto; margin-left: 20px; margin-top: 20px;" class="responsive-img" >
+    </div>
+
+    <div class="col m9 s9">
+      <div class="container">
+    <div class="row">
+    <div class="chikoo">
+                <div id="Carousel" class="carousel slide" style="margin-left: 30px; height: 350px;">
+                 
+                <ol class="carousel-indicators">
+                    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#Carousel" data-slide-to="1"></li>
+                    <li data-target="#Carousel" data-slide-to="2"></li>
+                </ol>
+                 
+               
+                <div class="carousel-inner">
+                    
+                <div class="item active">
+                  <div class="row">
+                    <div class="col-sm-4"><a href="#" class="thumbnail"><img src="img1.jpg" alt="Image"></a></div>
+                    <div class="col-sm-4"><a href="#" class="thumbnail">
+                    <img src="img1.jpg" alt="Image" ></a></div>
+                    <div class="col-sm-4"><a href="#" class="thumbnail">
+                    <img src="img2.jpg" alt="Image" ></a></div>
+          
+                  </div>
+                </div>
+                 
+                <div class="item">
+                  <div class="row">
+                    <div class="col-sm-4"><a href="#" class="thumbnail">
+                    <img src="img1.jpg" alt="Image" ></a></div>
+                    <div class="col-sm-4"><a href="#" class="thumbnail">
+                    <img src="img2.jpg" alt="Image" ></a></div>
+                    <div class="col-sm-4"><a href="#" class="thumbnail">
+                    <img src="img1.jpg" alt="Image" ></a></div>
+                
+                  </div>
+                </div>
+                 
+                <div class="item">
+                  <div class="row">
+                    <div class="col-sm-4"><a href="#" class="thumbnail">
+                    <img src="" alt="Image" style="max-width:100%;height: 250px;"></a></div>
+                    <div class="col-sm-4"><a href="#" class="thumbnail">
+                    <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%; height: 250px;"></a></div>
+                    <div class="col-sm-4"><a href="#" class="thumbnail">
+					
+                    <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;height: 250px;"></a></div>
+                
+                  </div>
+                </div>
+                           
+                </div>
+                  <a data-slide="prev" href="#Carousel" class="left carousel-control">
+            <span ><img src="images/left.png" class="glyphicon glyphicon-chevron-left""></span>
+        </a>
+        
+           <a data-slide="next" href="#Carousel" class="right carousel-control">
+            <span ><img src="images/right.png" class="glyphicon glyphicon-chevron-right""></span>
+        </a>
+      <div class="row center" style="margin-left: 5%;">
+      <input type="submit" name="" value="Search Dietitian" class="sec">
+</div>  
+                </div> 
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="row" style="background-color: #e9f1f4; ">
+ <div class="carousel" style="height: 220px;">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  
+        
+       <!--  <ol class="left carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol> -->
+           
+        <div class="carousel-inner">
+            <div class="item active ">
+            <div class="col s6 m6 ">
+                <img src="images/gola.png" alt="..." class="img-responsive img-circle" style= "height : 170px; 
+                margin-left:10px;  margin-top: 40px;">
+                </div>
+                <div class="col s6 m6">
+                <h5 style="color: black; margin-top: 10%; font-size: 18px; margin-right: 150px;"  class="center-align" id="a">It's very easy for me to manage diabetes with Sugarcare.in</h5>
+                <div class="right" style="margin-right: 80px; margin-top: 0px;">
+                <h6>-Ankit Singh</h6>
+                <h6>Diabetic from 6 yrs</h6>
+                </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                       <div class="col s4 m4 left-align">
+                <img src="images/gola.png" alt="..." class="img-responsive img-circle" style= "height : 150px; margin-top: 40px;">
+                </div>
+                <div class="col s8 m8">
+                <h5 style="color: black; margin-top: 10%; font-size: 18px; margin-right: 150px;"  class="center-align">It's very easy for me to manage diabetes with Sugarcare.in</h5>
+                <div class="right" style="margin-right: 80px; margin-top: 0px;">
+                <h6>-Ankit Singh</h6>
+                <h6>Diabetic from 6 yrs</h6>
+                </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                       <div class="col s4 m4 left-align">
+                <img src="images/gola.png" alt="..." class="img-responsive img-circle" style= "height : 150px; margin-top: 40px;">
+                </div>
+                <div class="col s8 m8">
+                <h5 style="color: black; margin-top: 10%; font-size: 18px; margin-right: 150px;"  class="center-align">It's very easy for me to manage diabetes with Sugarcare.in</h5>
+                <div class="right" style="margin-right: 80px; margin-top: 0px;">
+                <h6>-Ankit Singh</h6>
+                <h6>Diabetic from 6 yrs</h6>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+    
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span ><img src="images/left.png" class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span ><img src="images/right.png" class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+  
+    </div>
+
+
+  <footer class="page-footer" style="background-color: #0B2849; height: 100%; margin-bottom: -20%">
+      <div class="row">
+        <div class="col l2 s12 left-align">
+        <h5>Company</h5>
+             <ul class="list-unstyled text-left" >
+             <li><a href="about_us.html" class="li">About Us</a></li>
+             <li><a href="hiring.html" class="li">Career</a></li>
+             <li><a href="" class="li">Press</a></li>
+             </ul>
+        </div>
+        <div class="col l2 s12 left-align">
+        <h5>Members</h5>
+             <ul class="list-unstyled text-left">
+               <li><a href="" class="li">Patient SignUp/Login</a></li>
+               <li><a href="" class="li">Dietician SignUp/Login</a></li>
+             </ul>
+        </div>
+         <div class="col l1 s12">
+       
+     </div>
+        <div class="col l3 s12">
+             <h5 class="left-align">Contact Us</h5>
+             <ul class="list-unstyled left" >
+               <li ><a href="" class="li">+91-8076-731162</a></li>
+              <li style="margin-top: 2%;"><a href="" class="li">contact@sugarcare.in</a></li>
+              <li style="margin-top: 2%;"><a href="" class="li">SVAYUSH SERVICES PVT. LTD.</a></li>
+              <li style="margin-top: 2%;"><a href="" class="li">C/o WorkWings </a></li>
+              <li style="margin-top: 2%;"><a href="" class="li">H-187 sector 63</a></li>
+              <li style="margin-top: 2%;"><a href="" class="li">Noida - 201301, U.P.</a></li>
+             </ul>
+        </div>
+    
+    <div class="col l2 s12">
+        <h5 class="left-align">Recipes</h5>
+           <ul class="list-unstyled left">
+           <li><a href="" class="li">Coming Soon</a></li>
+           </ul>
+    </div>
+    <div class="col l2 s12 left">
+                  <h5>Blog</h5>
+             <ul class="list-unstyled"> 
+             <li class=""><a class="li" href="">Subscribe </a></li>
+                        <!-- <li >
+                        <div class="col m12">
+                            <form>
+                              <input class="waves-effect waves-light btn" type="submit" value="Subscribe" style="float: right ; background: #e2a42c; 
+                              margin-top: 20px;"/>
+                          <div style="overflow: hidden; padding-right: .5em;">
+                            <input type="text" style="width: 80%;"/>
+                                       </div>
+                                </form>
+                                </div -->
+                                <!-- </li> -->
+             </ul>
+    </div>
+    </div>
+
+    <div class="footer-copyright center">
+       <span class="sp-copyright left" style="color: #b6c0ca; "> © 2017 All Rights Reserved | Copyright</span>
+
+      <div class="container" style="margin-right: 20%;">
+      <!--  <h5 class="center" style="color: #FFFFFF"> Contact With Us</h5>
+ -->    
+                    <div style="margin-bottom: 2%;">
+                        <a href="#" style="padding: 0px 25px 0px 0px">
+                            <img height="50"  src="images/fb.png" >
+                        </a>
+                        <a href="#" style="padding: 0px 25px 0px 0px">
+                            <img height="50"  src="images/insta.png">
+                        </a>
+                        <a href="#">
+                            <img height="50" src="images/twitter.png">
+                        </a>
+                        
+                    </div>
+             </div>
+           </div>
+    
+  </footer>
+
+ <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+         <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row">
+                    <div class="col s12 m12" >
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#Login" data-toggle="tab">Login</a></li>
+                            <li><a href="#Registration" data-toggle="tab">Sign Up</a></li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content " style="margin-left: 10%; margin-top: 5%;">
+                            <div class="tab-pane active" id="Login">
+                      <form role="form">
+                        <div class="row">
+                               <div class="input-field col s10">
+                  <input placeholder="Enter Your Number" id="tel" type="tel" class="validate" required="">
+                 </div>
+                  
+               <div style="margin-left: 28%;">  
+<button type="button" class="btn primary" style="background-color:#22a7f0; margin-top: 10%; " data-toggle="modal" data-target="#modal-login">
+                 Login Using OTP
+                     </button>
+        </form>
+          </div>
+             </div>
+               <!--    <div class="center-align" style="margin-right: 30%; margin-top: 15%;">
+                   <h5>Currently you are logging in as a</h5>
+                   <h5>patient if you are a Dietitian</h5> 
+                   <h5><a href="#">Clickhere</a></h5> 
+                   </div>  
+         -->
+                  </div>
+  
+    <div class="tab-pane" id="Registration">
+                 
+             <form class="form">
+         <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Name" id="first_name" type="text" class="validate" required>
+       
+        </div>
+        <div class="input-field col s12">
+          <input id="tel" type="tel" class="validate" placeholder="Phone Number" required>  
+        </div>
+    
+        <div class="input-field col s12">
+          <input id="text" type="text" class="validate" placeholder="Refer Code (if any)" required>
+        </div>
+      </div>
+      </form>
+      <div style="margin-left: 30%;">
+ <button type="button" class="btn primary" style="background-color:#22a7f0;" data-toggle="modal" data-target="#modal-login">
+    Sign Up
+</button>
+</div>
+  </div>  
+   <div class="center-align" style="margin-right: 15%; margin-top: 5%;">
+                   <h5 style="font-size: 18px;">Currently you are logging in as a</h5>
+                   <h5 style="font-size: 18px;">patient if you are a Dietitian</h5> 
+                   <h5 style="font-size: 18px;"><a href="#">Clickhere</a></h5> 
+                   </div>
+                            </div> 
+
+                        </div>
+                </div>
+               </div>
+               </div>
+
+                                
+<!-- Modal Login -->
+<div class="modal fade modal-ext" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            <!--Body-->
+            <h4 style="color: #22a7f0; font-size: 18px;">OTP send to registered Phone Number</h4>
+            <div class="modal-body">
+          
+                <div class="md-form">
+                    <i class="fa fa-lock prefix"></i>
+                    <input type="text" id="form3" placeholder="Enter OTP" class="form-control">
+                    
+                </div>
+                <div class="text-center">
+                 <p>Didn't recieve an OTP <span style="color:#22a7f0;"><a href="#">Resend OTP</a></span></p>
+                    <button type="button" class="btn primary" style="background-color:#22a7f0; margin-top: 10%;">Login </button>
+                    <button type="button" class="btn" style="background-color:#22a7f0; margin-top: 10%;">Cancle </button>
+                </div>
+               
+            </div>
+              
+   <div class="center-align" style="margin-right: 5%; margin-top: 2%;">
+                   <h5 style="font-size: 18px;">Currently you are logging in as a</h5>
+                   <h5 style="font-size: 18px;">patient if you are a Dietitian</h5> 
+                   <h5 style="font-size: 18px;"><a href="#">Clickhere</a></h5> 
+                   </div>
+    </div>
+</div>
+  <!--  Scripts-->.
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="http://bootsnipp.com/js/scripts.min.js"></script>
+<script type="text/javascript" src="http://cdn.buysellads.com/ac/audience.js"></script>
+  </body>
+</html>

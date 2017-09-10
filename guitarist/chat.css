@@ -1,0 +1,288 @@
+/* <style> */
+
+/* ----- Menu --------------------------------------------------------------- */
+
+/* ----- Required ----- */
+
+div.ChatClient div.vert_menu
+{
+  z-index: 1;
+  position: absolute;
+  visibility: hidden;
+}
+
+div.ChatClient div.horz_menu a
+{
+  float: left;
+  display: block;
+}
+
+div.ChatClient div.vert_menu a
+{
+  float: none;
+  display: block;
+}
+
+/* ----- Buttons ----- */
+
+div.ChatClient div.horz_menu a,
+div.ChatClient div.vert_menu a,
+div.ChatClient div.menu_form div.menu_form_header
+{
+  border: 1px solid black;
+
+  width: 120px;
+
+  height:      20px;
+  line-height: 19px;
+  vertical-align: middle;
+
+  background: url('menu.png') 0px 40px;
+
+  text-decoration: none;
+  font-family: "Times New Roman", Serif;
+  font-weight: 900;
+  font-size: 13px;
+  color: #206040;
+}
+
+div.ChatClient div.horz_menu a:hover,
+div.ChatClient div.vert_menu a:hover
+{
+  background-position: 0px 20px;
+  color: #206060;
+}
+
+div.ChatClient div.horz_menu a.parent,
+div.ChatClient div.vert_menu a.parent
+{
+  background-position: 0px 0px;
+}
+
+div.ChatClient div.horz_menu a.active,
+div.ChatClient div.vert_menu a.active,
+div.ChatClient div.horz_menu a.parent:hover,
+div.ChatClient div.vert_menu a.parent:hover,
+div.ChatClient div.horz_menu a.active:hover,
+div.ChatClient div.vert_menu a.active:hover
+{
+  background-position: 0px 60px;
+  color: #206060;
+}
+
+/* ----- Popups ------------------------------------------------------------- */
+
+/* ----- IFrame ----- */
+
+div.ChatClient div.menu_form iframe { margin: 6px 10px 10px 10px; }
+
+div.ChatClient div.menu_form
+{
+  background: url('form.png') no-repeat -10px -6px;
+}
+
+/* ----- Div ----- */
+
+div.ChatClient div.menu_form div.menu_form_header
+{
+  border-bottom: 0px;
+  width: 200px;
+  background: url('form_header.png') no-repeat;
+  cursor: default;
+}
+
+div.ChatClient div.menu_form div.menu_form_body
+{
+  border: 1px solid black;
+  width: 200px;
+  background: url('form.png') no-repeat left bottom;
+}
+
+div.ChatClient div.menu_form div.menu_form_body div
+{
+  margin: 6px 10px 10px 10px;
+}
+
+div.ChatClient div.menu_form img.menu_form_exit
+{
+  float: right;
+  margin: 4px 6px 0px 0px;
+}
+
+/* ----- Table ----- */
+
+div.ChatClient div.menu_form table
+{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+div.ChatClient div.menu_form th
+{
+  width: 1%;
+  padding: 0px 5px 1px 0px;
+
+  text-align: left;
+
+  font-family: "Times New Roman", Serif;
+  font-weight: 900;
+  font-size: 13px;
+  color: #004060;
+}
+
+div.ChatClient div.menu_form td
+{
+  width: 99%;
+  padding: 0px 0px 1px 0px;
+}
+
+/* ----- Form ----- */
+
+div.ChatClient form { margin: 0px; }
+
+div.ChatClient input.field
+{
+  border: 1px solid #808080;
+  width: 95%;
+  font-family: Arial, Sans-Serif;
+  font-size: 12px;
+}
+
+div.ChatClient input.btn
+{
+  margin-top: 2px;
+  border: 1px solid #808080;
+  background-color: #DDFFDD;
+  font-family: Verdana, Sans-Serif;
+  font-size: 11px;
+}
+
+/* ----- Rooms ----- */
+
+div.ChatClient div#ChatClientRooms
+{
+  border: 1px solid #808080;
+  height: 70px;
+  background: white;
+  overflow: auto;
+}
+
+div.ChatClient div#ChatClientRooms a
+{
+  display: block;
+  padding-left: 2px;
+  text-decoration: none;
+  font-family: Verdana, Sans-Serif;
+  font-weight: 900;
+  font-size: 10px;
+  color: #000000;
+}
+
+/* ----- About ----- */
+
+div.ChatClient div#ChatClientAbout
+{
+  overflow: auto;
+  border: 1px solid #808080;
+  background: #DDFFDD;
+  padding: 4px;
+  font-family: Verdana, Sans-Serif;
+  font-size: 10px;
+}
+
+/* ----- Chat Window -------------------------------------------------------- */
+
+/* ----- General ----- */
+
+
+div.ChatClient div.ChatWindow
+{
+  border: 1px solid black;
+  border-top: none;
+  width:  483px;
+  height: 250px;
+}
+
+div.ChatClient div.ChatWindow table
+{
+  border-collapse: collapse;
+  width:  483px;
+  height: 250px;
+}
+
+div.ChatClient div.ChatWindow table td
+{
+  vertical-align: middle;
+  text-align: center;
+  padding: 0px;
+}
+
+div.ChatClient div.ChatWindow table td table
+{
+  border-collapse: collapse;
+  width:  473px;
+  height: 240px;
+}
+
+div.ChatClient div.ChatWindow table td table td
+{
+  vertical-align: top;
+  text-align: left;
+  padding: 0px;
+}
+
+div.ChatClient div.ChatWindow table td table td input
+{
+  border: none;
+  width: 98%;
+}
+
+/* ----- Users ----- */
+
+div.ChatClient div#ChatClientUsers
+{
+  float: right;
+  margin-left: -100px;
+  border: 2px inset black;
+  width:  100px;
+  height: 240px;
+  overflow: auto;
+}
+
+div.ChatClient div#ChatClientUsers a
+{
+  display: block;
+  padding-left: 2px;
+  text-decoration: none;
+  font-family: Arial, San-Serif;
+  font-size: 12px;
+  color: #000000;
+}
+
+
+/* ----- Chat ----- */
+
+div.ChatClient div#ChatClientChat
+{
+  float: left;
+  border: 2px inset black;
+  width:  362px;
+  height: 209px;
+  overflow: auto;
+}
+
+div.ChatClient div#ChatClientChat div
+{
+  padding: 0px 3px;
+}
+
+/* ----- Tell ----- */
+
+div.ChatClient div#ChatClientTell
+{
+  float: left;
+  margin-top: 2px;
+  border: 2px inset black;
+  width: 362px;
+  height: 25px;
+}

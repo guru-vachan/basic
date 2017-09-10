@@ -1,0 +1,8 @@
+Title: Simple diagram
+    Participant B
+    Participant A
+    A->B: Message
+    B->A: egassem
+    C-->A: Request token
+    A->B: Forward request
+    B->>C: Send token

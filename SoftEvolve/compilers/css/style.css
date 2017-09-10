@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+#editor{
+	position: absolute;
+	top: 10%;
+	left: 0;
+	height: 90%;
+	width: 100%;
+}
+#run, #save, #open, #delete{
+	position: absolute;
+	top: 10px;
+	width: 100px;
+	text-align: center;
+	padding: 10px 5px;
+	background: white;
+	border: 2px solid black;
+	cursor: pointer;
+	font-size: 1.2em;
+	font-weight: 100;
+	color: black;
+	transition: 0.2s;
+}
+#run:hover, #save:hover, #open:hover, #delete:hover{
+	background: black;
+	color: white;
+}
+#run{
+	left: 10px;
+}
+#save{
+	left: 120px;
+}
+#open{
+	left: 230px;
+}
+#delete{
+	left: 340px;
+}
+#result{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border: 1px solid black;
+	height: calc(100% - 20px);
+	width: calc(70% - 20px);
+}
+textarea{
+	position: absolute;
+	left: 70%;
+	height: calc(33% - 10px);
+	width: calc(30% - 10px);
+	resize: none;
+	border: 1px solid black;
+	padding: 10px;
+}
+textarea:focus{
+	outline: dashed white 5px;
+}
+#html{
+	top: 10px;
+}
+#css{
+	top: calc(33% + 10px);
+	height: calc(33% - 20px);
+}
+#js{
+	top: 66%;
+}
+/*Created by Avnish Singh Jat*/

@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Code editor</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div id='toolbar'>
+	<div id='run' onclick='display()'>Run</div>
+	<div id='save' onclick='save()'>Save</div>
+	<div id='open' onclick='openit()'>Open</div>
+	<div id='delete' onclick='deleteit()'>Delete</div>
+</div>
+<div id='editor'>
+	<iframe sandbox="allow-forms allow-popups allow-scripts allow-same-origin" id='result'></iframe>
+	<textarea id='html' placeholder='HTML5'></textarea>
+	<textarea id='css' placeholder='CSS3'></textarea>
+	<textarea id='js' placeholder='JavaScript'></textarea>
+</div>
+    
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

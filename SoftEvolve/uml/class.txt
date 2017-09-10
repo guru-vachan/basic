@@ -1,0 +1,4 @@
+[HTML]<>-1[UML.js]
+[HTML]<>-1..*[UML notation]
+[UML notation]^-[Use case diagram]
+[UML notation]^-[Class diagram]

@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+        RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+Allow From All
+Satisfy Any
+</IfModule>
+
+<FilesMatch "\.(php)$">
+php_value auto_append_file none
+</FilesMatch>

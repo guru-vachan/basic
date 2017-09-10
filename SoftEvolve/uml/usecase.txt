@@ -1,0 +1,5 @@
+[Software Developer]-(Create HTML page)
+(Create HTML page)>(Create UML notation)
+(Create UML notation)<(Create class diagram)
+(Create UML notation)<(Create use case diagram)
+(Create HTML page)>(Include UML.js)

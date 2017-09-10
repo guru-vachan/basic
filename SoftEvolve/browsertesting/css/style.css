@@ -1,0 +1,16 @@
+iframe {
+	display: inline;
+	border: 4px solid #000;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	overflow: hidden;
+	margin: center;
+}
+main {
+	display: block;
+}
+section {
+	display: inline;
+	width: 1920px;
+	max-width: 100%;
+}

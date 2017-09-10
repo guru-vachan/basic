@@ -1,0 +1,34 @@
+1:LIBRARY MANAGEMENT -We aimed to build a automatic library by creating a clone of it .Such that some of the characteristics  whoch included were
+
+-It could search books and materail by  book name ,ISBN no and author name.
+-It was buid on the structure on c/C++.
+-In short we creative a artificial plethora of knowlegde by including a great no of books!!
+
+2:SNAKE GAME -We impelemented a game as to how you can create a big snake based on your capability to concentrate and manage
+
+-we included various graphics which enhanced the look
+-The snake was not allowed to touch the walls
+-the more you grow it long the more you were near the win point.
+-THw whole project was build on the nails of linklist.
+
+3:PET STORE:-A platform of e-commerce of including the overall back groung of pets
+
+-The floor was build on the basis on PHP,MySql
+-The front end was build with html,css,java script
+-We could sell ,buy,gain full knowledge about pets
+-We could even know about the endangered species etc
+-we created the advertisements of  various programme regarding our pet
+
+
+4:KALP -A platform to create realtionship between we common people and the NGO
+
+-Was build in phython
+-We could communicate here,perform here,be a part here.
+-It displays the all details of my previously handled programme 
+-We colud get here all sorts of notification
+
+5:SOFTWARE TESTER- 
+
+-IT was build on HTML5 canvas feature
+-we could crete here various types of diagram like UML,USE  CASE and Class daigram
+-We colud test the responsivness of any site 
